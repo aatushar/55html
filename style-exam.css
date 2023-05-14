@@ -1,0 +1,6 @@
+li{
+    list-style-type: square;
+}
+ol{
+    list-style: lower-roman;
+}
