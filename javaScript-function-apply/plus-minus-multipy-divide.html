@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">first</label>
+    <input type="number" id="number1">
+    <label for="">second</label>
+    <input type="number" id="number2">
+    <button onclick="add()">+</button>
+    <button onclick="sub()">-</button>
+    <button onclick="multiply()">*</button>
+    <button onclick="div()">/</button>
+
+    <script>
+        
+        function add(){
+            let first=document.getElementById("number1").value;
+            let second=document.getElementById("number2").value;
+            let result =parseInt(first)+parseInt(second);
+            document.getElementById("result").innerHTML="result = "+result;
+        }
+        function sub(){
+            let first=document.getElementById("number1").value;
+            let second=document.getElementById("number2").value;
+            let result = first-second;
+            document.getElementById("result").innerHTML="result = "+result;
+        }
+        function add(){
+            let first=document.getElementById("number1").value;
+            let second=document.getElementById("number2").value;
+            let result =first*second;
+            document.getElementById("result").innerHTML="result = "+result;
+        }
+        function add(){
+            let first=document.getElementById("number1").value;
+            let second=document.getElementById("number2").value;
+            let result =first/second;
+            document.getElementById("result").innerHTML="result = "+result;
+        }
+    </script>
+</body>
+</html>
