@@ -11,3 +11,18 @@ i{
 hr{
  color: white;
 }
+#never{
+ margin-left: 80px;
+ height: 100%;
+ width: 26%;
+}
+nav ul li a:hover{
+  background-color:red;
+
+}
+#nord{
+ color: black;
+}
+#black{
+  color: black;
+}
